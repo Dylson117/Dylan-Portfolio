@@ -1,9 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <script type="module">
-    import { animate, scroll } from "https://cdn.jsdelivr.net/npm/motion@latest/+esm"
-  </script>
 
     <link rel="stylesheet" type="text/css" href="index.css">
     <meta charset="UTF-8">
@@ -19,7 +16,11 @@
     </div>
   </div> 
 
-  
+  <div class="section-divider">
+    <br>
+    <br>
+  </div>
+
   <div class ="about-me">
 <br>
 <br> 
@@ -47,7 +48,6 @@
 
   <div class="about-me-image">
     <img src="AHH.png"
-
     <br>
   </div>
 
@@ -58,54 +58,76 @@
   <br>
   <br>
   <br>
-  <br>
-  <br>
-  <br>
-  <br>
+
+  <div class="section-divider">
+    <br>
+    <br>
+  </div>
 
   <div class="design-philosophy">
+
+    <h2>Design Philosophy</h2>
+    <br>
+    <br>
+    <br>
+
+    <div class="design-philosophy-text">
+        <h3>My approach to design</h3>        
+        <br>
+        <p>
+            He Zhiwu: We rub shoulders with many people everyday. Some may become close friends, or confidants. That's why I'm always optimistic. 
+            Sometimes it hurts. Not to worry - I try to stay happy. That night, I saw that woman again. I knew we'd never be friends or 
+            confidants. 
+            We'd let too many chances pass us by. Nothing happened, there was no chemistry. Maybe it was the weather, but that night I 
+            found her very alluring.
+            [first lines]
+            The Killer's Agent: Are we still partners?
+            Wong Chi-Ming: [voiceover] We've been business partners for nearly three years. This is the first time we've ever sat together. 
+            We hardly 
+            ever see each other. I know how hard it is for a man to control his passion. Partners shouldn't get emotionally involved with 
+            each other        
+        </p>
+        <br>
+        <br>
+
+
+    </div>
   
   <div class="carousel">
-
+    <h3>My Inspirations:</h3>
 
     <div class="carousel_track-contrainer">
        
         <ul class="carousel_track">
 
-            <!--
-            <li class="carousel_slide .current-slide">
-                <video width="320" height="240" controls autoplay>
+            <li class="carousel_slide current-slide">
+                <video class="carousel_image" controls autoplay loop>
                     <source src="sotc.mp4" type="video/mp4" >
                   </video>
-            </li>
-            -->
-            <li class="carousel_slide current-slide">
-                <video class="carousel_image" controls autoplay>
-                    <source src="lotr.mp4" type="video/mp4" >
-                  </video>
-
                   <div class="slide-text">
-                    <p>Lord of the poop hehe I am losing my mind I hate programming please</p>
+                    <p>Best game ever, shutup Dan</p>
                   </div>
-                  
-                
             </li>
             <li class="carousel_slide">
-                
+                <video class="carousel_image" controls autoplay loop>
+                    <source src="lotr.mp4" type="video/mp4" >
+                  </video>
+                  <div class="slide-text">
+                    <p>Lord of the poop hehe I am losing my mind I hate programming please</p>
+                  </div>  
+            </li>
+            <li class="carousel_slide"> 
                 <video class="carousel_image"  controls autoplay loop>
                     <source src="pb.mp4" type="video/mp4" >
                   </video>
                   <div class="slide-text">
                     <p>this movie kinda goated</p>
                   </div>
-                  
-                
             </li>
             <li class="carousel_slide">
                 <video class="carousel_image"  controls autoplay loop>
                     <source src="fallenangels.mp4" type="video/mp4" >
                   </video>
-
                   <div class="slide-text">
                     <p>Wong Kar Wai is goated</p>
                   </div>
@@ -114,7 +136,6 @@
                 <video class="carousel_image"  controls autoplay loop>
                     <source src="journey.mp4" type="video/mp4" >
                   </video>
-
                   <div class="slide-text">
                     <p>Please play this game please please</p>
                   </div>
@@ -123,7 +144,6 @@
                 <video class="carousel_image"  controls autoplay loop>
                     <source src="mgs2.mp4" type="video/mp4" >
                   </video>
-
                   <div class="slide-text">
                     <p>HUH?!? METAL GEAR!!</p>
                   </div>
@@ -132,7 +152,6 @@
                 <video class="carousel_image"  controls autoplay loop>
                     <source src="ds.mp4" type="video/mp4" >
                   </video>
-
                   <div class="slide-text">
                     <p>Dont go hollow</p>
                   </div>
@@ -141,7 +160,6 @@
                 <video class="carousel_image"  controls autoplay loop>
                     <source src="mononke.mp4" type="video/mp4" >
                   </video>
-
                   <div class="slide-text">
                     <p>San my beloved</p>
                   </div>
@@ -150,23 +168,17 @@
                 <video class="carousel_image"  controls autoplay loop>
                     <source src="abzu.mp4" type="video/mp4" >
                   </video>
-
                   <div class="slide-text">
                     <p>I cant swim</p>
                   </div>
             </li>
             <li class="carousel_slide">
                <img class="carousel_image" src="Ico.gif">
-
                <div class="slide-text">
                 <p>Best game ever made ueda my king</p>
               </div>
-            </li>
-       
-            
+            </li>       
         </ul>
-
-        
 
     </div>
     <button class="carousel_button carousel_button--right"> 
@@ -195,12 +207,9 @@
         <button class="carousel_indicator"></button>
         &nbsp;
         <button class="carousel_indicator"></button>
-        <!--<button class="carousel_indicator"></button>-->
+        &nbsp;
+        <button class="carousel_indicator"></button>
     </div>
-
-
-    
-
 
   </div>
   
@@ -233,68 +242,9 @@
   
   
 </div>
-  <!--  
-  <script> 
-  "use client"
-
-import {
-    motion,
-    MotionValue,
-    useScroll,
-    useSpring,
-    useTransform,
-} from "motion/react"
-import { useRef } from "react"
-
-useParallax(value, MotionValue<number> distance, number) 
-{
-    return useTransform(value, [0, 1], [-distance, distance])
-}
 
 
-function Image({ id }: { id: number }) {
-    const ref = useRef(null)
-    const { scrollYProgress } = useScroll({ target: ref })
-    const y = useParallax(scrollYProgress, 300)
 
-    return (
-        <section className="img-container">
-            <div ref={ref}>
-                <img
-                    src={`/photos/cityscape/${id}.jpg`}
-                    alt="A London skyscraper"
-                />
-            </div>
-            <motion.h2
-                // Hide until scroll progress is measured
-                initial={{ visibility: "hidden" }}
-                animate={{ visibility: "visible" }}
-                style={{ y }}
-            >{`#00${id}`}</motion.h2>
-        </section>
-    )
-}
-
-export default function Parallax() {
-    const { scrollYProgress } = useScroll()
-    const scaleX = useSpring(scrollYProgress, {
-        stiffness: 100,
-        damping: 30,
-        restDelta: 0.001,
-    })
-
-    return (
-        <div id="example">
-            {[1, 2, 3, 4, 5].map((image) => (
-                <Image key={image} id={image} />
-            ))}
-            <motion.div className="progress" style={{ scaleX }} />
-            <StyleSheet />
-        </div>
-    )
-}
-</script>
--->
 <script src="carousel.js"></script>
 </body>
 </html>
