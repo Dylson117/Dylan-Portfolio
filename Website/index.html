@@ -1,32 +1,227 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <script type="module">
+    import { animate, scroll } from "https://cdn.jsdelivr.net/npm/motion@latest/+esm"
+  </script>
+
     <link rel="stylesheet" type="text/css" href="index.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dylan's Portfolio</title>
 </head>
 
+
 <div class="hero-image">
     <div class="hero-text">
       <h1>Dylan Rose</h1>
-      <p>Game Designer</p>
+      <p><i>Game Designer</i></p>
     </div>
   </div> 
 
   
   <div class ="about-me">
+<br>
+<br> 
+<br>
+    <h2>About Me</h2>
+
     <div class="about-me-text">
 
-      <h1> About Me</h1>
+      <p>I am Dylan blah blah wait laufey reference???? lets go? He Zhiwu: I was very talkative when I was small    
+        But at age five, I ate a can of pineapple that had expired, and I stopped talking. For that reason, I have very few friends.
+        He Zhiwu: I found it very hard to find work too. I finally decided to be my own boss. Having no capital, the only thing 
+        I can do is sneak into other people's shops after hours and run my own business. I'm not a freeloader. 
+        I just think it makes sense, since the rent's already been paid, to run the business around the clock.
+        He Zhiwu: Who says nobody buys pork at 3:00 a.m.? I came yesterday to buy some, didn't I? 
+        If you want to do business, you have to take each customer's needs into account.
+        He Zhiwu: Buddha said, "If I don't descend into hell, who will?" When you're the boss, 
+        you have to be kind, caring and tolerant. You can't just look to your own gain. I know very well there's no such thing as a free lunch, so I always work very hard until the wee hours.
+        He Zhiwu: I don't make a lot of money, but I'm happy. </p>
 
+        <br>
+        <br>
+
+    </div>
+  </div>
+
+  <div class="about-me-image">
+    <img src="AHH.png"
+
+    <br>
+  </div>
+
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  
+  <div class="carousel">
+
+
+    <div class="carousel_track-contrainer">
+       
+        <ul class="carousel_track">
+
+            <!--
+            <li class="carousel_slide .current-slide">
+                <video width="320" height="240" controls autoplay>
+                    <source src="sotc.mp4" type="video/mp4" >
+                  </video>
+            </li>
+            -->
+            <li class="carousel_slide current-slide">
+                <video class="carousel_image" controls autoplay>
+                    <source src="lotr.mp4" type="video/mp4" >
+                  </video>
+                
+            </li>
+            <li class="carousel_slide">
+                
+                <video class="carousel_image"  controls autoplay>
+                    <source src="pb.mp4" type="video/mp4" >
+                  </video>
+                
+            </li>
+            <li class="carousel_slide">
+                <video class="carousel_image"  controls autoplay>
+                    <source src="fallenangels.mp4" type="video/mp4" >
+                  </video>
+            </li>
+            <li class="carousel_slide">
+                <video class="carousel_image"  controls autoplay>
+                    <source src="journey.mp4" type="video/mp4" >
+                  </video>
+            </li>
+            <li class="carousel_slide">
+                <video class="carousel_image"  controls autoplay>
+                    <source src="mgs2.mp4" type="video/mp4" >
+                  </video>
+            </li>
+            <li class="carousel_slide">
+                <video class="carousel_image"  controls autoplay>
+                    <source src="ds.mp4" type="video/mp4" >
+                  </video>
+            </li>
+            <li class="carousel_slide">
+                <video class="carousel_image"  controls autoplay>
+                    <source src="mononke.mp4" type="video/mp4" >
+                  </video>
+            </li>
+            <li class="carousel_slide">
+                <video class="carousel_image"  controls autoplay>
+                    <source src="abzu.mp4" type="video/mp4" >
+                  </video>
+            </li>
+            <!--<li class="carousel_slide">
+               <img class="carousel_image" src="Ico.gif">
+            </li>
+        -->
+            
+        </ul>
+
+        
+
+    </div>
+    <button class="carousel_button carousel_button--right"> 
+        <img src="Rarrow.png"> 
+    </button>
+
+    <button class="carousel_button carousel_button--left">
+        <img src="Larrow.png">
+    </button>
+    
+    <div class="carousel_nav">
+        <button class="carousel_indicator current-slide"></button>
+        <button class="carousel_indicator"></button>
+        <button class="carousel_indicator"></button>
+        <button class="carousel_indicator"></button>
+        <button class="carousel_indicator"></button>
+        <button class="carousel_indicator"></button>
+        <button class="carousel_indicator"></button>
+        <button class="carousel_indicator"></button>
+        <button class="carousel_indicator"></button>
+        <button class="carousel_indicator"></button>
     </div>
 
   </div>
-
   
 
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  
+  
+  
+  
+  
+  <!--  
+  <script> 
+  "use client"
+
+import {
+    motion,
+    MotionValue,
+    useScroll,
+    useSpring,
+    useTransform,
+} from "motion/react"
+import { useRef } from "react"
+
+useParallax(value, MotionValue<number> distance, number) 
+{
+    return useTransform(value, [0, 1], [-distance, distance])
+}
 
 
+function Image({ id }: { id: number }) {
+    const ref = useRef(null)
+    const { scrollYProgress } = useScroll({ target: ref })
+    const y = useParallax(scrollYProgress, 300)
+
+    return (
+        <section className="img-container">
+            <div ref={ref}>
+                <img
+                    src={`/photos/cityscape/${id}.jpg`}
+                    alt="A London skyscraper"
+                />
+            </div>
+            <motion.h2
+                // Hide until scroll progress is measured
+                initial={{ visibility: "hidden" }}
+                animate={{ visibility: "visible" }}
+                style={{ y }}
+            >{`#00${id}`}</motion.h2>
+        </section>
+    )
+}
+
+export default function Parallax() {
+    const { scrollYProgress } = useScroll()
+    const scaleX = useSpring(scrollYProgress, {
+        stiffness: 100,
+        damping: 30,
+        restDelta: 0.001,
+    })
+
+    return (
+        <div id="example">
+            {[1, 2, 3, 4, 5].map((image) => (
+                <Image key={image} id={image} />
+            ))}
+            <motion.div className="progress" style={{ scaleX }} />
+            <StyleSheet />
+        </div>
+    )
+}
+</script>
+-->
+<script src="carousel.js"></script>
 </body>
 </html>
