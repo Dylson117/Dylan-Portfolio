@@ -20,12 +20,43 @@ const moveToSlide = (track, currentSlide, targetSlide) => {
     targetSlide.classList.add("current-slide");
 }
 
+const updateDots = (currentDot, targetDot) => {
+    currentDot.classList.remove("current-slide");
+    targetDot.classList.add("current-slide");
+
+}
+
+
+
+const hideShowArrows = (slides, prevButton, nextButton, targetIndex) => {
+    if(targetIndex === 0){
+        prevButton.classList.add("is-hidden");
+        nextButton.classList.remove("is-hidden");
+    }else if (targetIndex === slides.length - 1){
+        prevButton.classList.remove("is-hidden");
+        nextButton.classList.add("is-hidden");
+    } else {
+        prevButton.classList.remove("is-hidden");
+        nextButton.classList.remove("is-hidden");
+    }
+}
+
+
+
 //when click left move slides to the left
 prevButton.addEventListener("click", e => {
     const currentSlide = track.querySelector(".current-slide");
     const prevSlide = currentSlide.previousElementSibling;
+    const currentDot = dotsNav.querySelector(".current-slide");
+    const prevDot = currentDot.previousElementSibling;
+    const prevIndex = slides.findIndex(slide => slide ===  prevSlide);
+
+
+    updateDots(currentDot, prevDot);
 
     moveToSlide(track, currentSlide, prevSlide);
+
+    hideShowArrows(slides, prevButton, nextButton, prevIndex);
 })
 
 
@@ -33,13 +64,38 @@ prevButton.addEventListener("click", e => {
 nextButton.addEventListener("click", e => {
     const currentSlide = track.querySelector(".current-slide");
     const nextSlide = currentSlide.nextElementSibling;
+    const currentDot = dotsNav.querySelector(".current-slide");
+    const nextDot = currentDot.nextElementSibling;
+    const nextIndex = slides.findIndex(slide => slide ===  nextSlide);
+
+    updateDots(currentDot, nextDot);
     
 
     moveToSlide(track, currentSlide, nextSlide);
+
+    hideShowArrows(slides, prevButton, nextButton, nextIndex);
 })
 
 //when I click nav indicator move to that slide
+dotsNav.addEventListener("click", e => {
+    //what indicator was cliked 
+    const targetDot = e.target.closest("button");
 
+    if (!targetDot) return;
+
+    const currentSlide = track.querySelector(".current-slide");
+    const currentDot = dotsNav.querySelector(".current-slide");
+    const targetIndex = dots.findIndex(dot => dot === targetDot);
+    const targetSlide = slides[targetIndex];
+
+    moveToSlide(track, currentSlide, targetSlide);
+    updateDots(currentDot, targetDot);
+    hideShowArrows(slides, prevButton, nextButton, targetIndex);
+
+    
+    
+    
+})
 
 
 //HEY LISTEN, YOU ARE ON 35:54 FOR THE TUTORIAL VIDEO 
