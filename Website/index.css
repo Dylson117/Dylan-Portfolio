@@ -1,5 +1,6 @@
 body, html {
-    height: 125%;  
+    height: 125%; 
+    
 }
 
 body 
@@ -8,8 +9,18 @@ body
     font-family: Verdana, sans-serif;
 }
 
+
+
 h1 {
   font-size: 55px;
+}
+
+h1- {
+  font-size: 30px;
+  font-family: Verdana, sans-serif;
+  color: beige;
+  text-shadow: 1px 1px #000000;
+  
 }
 
 h2 {
@@ -259,7 +270,7 @@ cursor: pointer;
   left: 5%;
 }
 
-.itch-link-tmitm {
+.itch-link-right {
   background-color: burlywood;
   height: 60px;
   width: 260px;
@@ -272,7 +283,7 @@ cursor: pointer;
   border-color: black ;
 }
 
-.itch-link-sf {
+.itch-link-left {
   background-color: burlywood;
   height: 60px;
   width: 260px;
@@ -283,7 +294,25 @@ cursor: pointer;
   position: relative;
   border-radius: 1%;
   border-color: black;
- 
-  
 }
 
+.self-absorbed-image img {
+  background-color: burlywood;
+  height: 400px;
+  width: 580px;
+  padding: 10px;
+  left: 1%;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: absolute;
+  position: relative;
+  box-sizing: border-box;
+  border-radius: 1%;
+}
+
+.self-absorbed-text {
+  text-align: right;
+  position: absolute;
+  left: 41%;
+  right: 5%;
+}
