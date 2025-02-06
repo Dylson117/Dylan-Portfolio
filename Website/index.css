@@ -317,17 +317,39 @@ cursor: pointer;
   right: 5%;
 }
 
-.research-tile img {
 
+.misc-work-tiles-container {
+  width: 100%;
+}
+
+.research-tile-button {
   background-color: burlywood;
-  height: 400px;
-  width: 500px;
-  padding: 10px;
-  left: 1%;
-  background-position: left;
+  height: 444px;
+  width: 478px;
+  padding: 15px;
+  left: 3%;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  box-sizing: border-box;
+  border-radius: 1%;
+  text-align: center;
+  
+}
+
+.contact-button {
+  background-color: burlywood;
+  height: 60px;
+  width: 260px;
+  background-position: right;
   background-repeat: no-repeat;
   background-size: absolute;
   position: relative;
-  box-sizing: border-box;
   border-radius: 1%;
+  border-color: black;
+
 }
+
+
+
+
