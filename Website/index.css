@@ -316,3 +316,18 @@ cursor: pointer;
   left: 41%;
   right: 5%;
 }
+
+.research-tile img {
+
+  background-color: burlywood;
+  height: 400px;
+  width: 500px;
+  padding: 10px;
+  left: 1%;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: absolute;
+  position: relative;
+  box-sizing: border-box;
+  border-radius: 1%;
+}
