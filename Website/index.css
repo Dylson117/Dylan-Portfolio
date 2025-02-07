@@ -31,6 +31,14 @@ h2 {
   text-align: center;
 }
 
+h2- {
+  color: beige;
+  text-shadow: 1px 1px #000000;
+
+  font-size: 45px;
+  text-align: center;
+}
+
 h3 {
   text-align: center;
   color: burlywood;
@@ -44,6 +52,7 @@ p- {
 p2 {
   font-size: 17px;
   text-shadow: 0px 0px #000000;
+  
 }
 b {
   color: beige;
@@ -281,6 +290,7 @@ cursor: pointer;
   position: relative;
   border-radius: 1%;
   border-color: black ;
+  cursor: pointer;
 }
 
 .itch-link-left {
@@ -294,6 +304,7 @@ cursor: pointer;
   position: relative;
   border-radius: 1%;
   border-color: black;
+  cursor: pointer;
 }
 
 .self-absorbed-image img {
@@ -334,6 +345,7 @@ cursor: pointer;
   box-sizing: border-box;
   border-radius: 1%;
   text-align: center;
+  cursor: pointer;
   
 }
 
@@ -341,12 +353,19 @@ cursor: pointer;
   background-color: burlywood;
   height: 60px;
   width: 260px;
-  background-position: right;
-  background-repeat: no-repeat;
-  background-size: absolute;
   position: relative;
   border-radius: 1%;
   border-color: black;
+  cursor: pointer;
+  left: 33%;
+
+}
+
+.section-intro {
+  background-color: burlywood;
+  color: beige;
+  text-align: center;
+  height: 100px;
 
 }
 

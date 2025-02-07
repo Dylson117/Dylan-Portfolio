@@ -1,0 +1,218 @@
+body, html {
+    height: 125%; 
+    
+}
+
+body 
+{
+    background-color: beige;
+    font-family: Verdana, sans-serif;
+}
+
+
+
+h1 {
+  font-size: 55px;
+}
+
+h1- {
+  font-size: 30px;
+  font-family: Verdana, sans-serif;
+  color: beige;
+  text-shadow: 1px 1px #000000;
+  
+}
+
+h2 {
+  color: burlywood;
+  text-shadow: 1px 1px #000000;
+
+  font-size: 45px;
+  text-align: center;
+}
+
+h2- {
+  color: beige;
+  text-shadow: 1px 1px #000000;
+
+  font-size: 45px;
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+  color: burlywood;
+  text-shadow: 1px 1px #000000;
+  font-size: 25px;
+}
+
+p- {
+  color: rgb(69, 59, 48);
+}
+p2 {
+  font-size: 17px;
+  text-shadow: 0px 0px #000000;
+  
+}
+b {
+  color: beige;
+  background-color: burlywood;
+  height: 60px;
+  width: 260px;
+}
+
+
+.scrap-forge-image {
+    background-color: burlywood;
+    height: 340px;
+    width: 580px;
+    padding: 10px;
+    left: 1%;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: absolute;
+    position: relative;
+    box-sizing: border-box;
+    border-radius: 1%;
+  
+  }
+  
+  .scrap-forge-text {
+    text-align: right;
+    position: absolute;
+    left: 43%;
+    right: 3%;
+   
+  }
+
+  .section-divider {
+    background-color: burlywood;
+  }
+
+  .section-intro {
+    background-color: burlywood;
+    color: beige;
+    text-align: center;
+    height: 100px;
+  
+  }
+
+
+  .scrap-forge-2 img {
+    height: 400px;
+    width: 600px;
+    left: 60%;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: absolute;
+    background-color: burlywood;
+    position: relative;
+    padding: 10px;
+    border-radius: 1%; 
+  }
+  
+  .scrap-forge-2-text {
+    text-align: right;
+  position: absolute;
+  left: 39.5%;
+  right: 5%;
+  }
+
+
+
+  .carousel {
+    height: 500px;
+    width: 700px;
+    left: 1%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: absolute;
+    position: relative;
+    box-sizing: border-box;
+    border-radius: 50%;
+  }
+  
+  .carousel_image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5%;
+  }
+  
+  .carousel_track-contrainer{
+    background-color: burlywood;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    border-radius: 5%;
+  }
+  
+  .carousel_track {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: relative;
+    height: 80%;
+    width: 100%;
+    transition: transform 300ms ease-in;
+    
+  }
+  
+  .carousel_slide {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .carousel_button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+  }
+  
+  
+  .carousel_button--left {
+    left: -50px;
+  }
+  
+  .carousel_button--right {
+    right: -50px;
+  }
+  
+  
+  .carousel_button img {
+    width: 50px;
+  }
+  
+  .carousel_nav{
+    display: flex;
+    justify-content: center;
+    padding: 8px 0;
+    margin: 0 5px;
+  }
+  
+  .carousel_indicator{
+  border: 0;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  background: rgb(234, 210, 181);
+  cursor: pointer;
+  }
+  
+  .carousel_indicator.current-slide {
+    background-color: burlywood;
+  }
+  
+  .is-hidden {display: none;}
+  
+  .slide-text {
+    font-family: Verdana, sans-serif;
+    text-align: center;
+  }
+  
