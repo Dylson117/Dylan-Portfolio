@@ -92,7 +92,7 @@ b {
 
 .about-me-text 
 {
-  text-align: right;
+  text-align: center;
   position: absolute;
   left: 39.5%;
   right: 5%;
@@ -210,7 +210,7 @@ cursor: pointer;
 
 .design-philosophy-text{
 
-  text-align: left;
+  text-align: center;
   position: absolute;
   right: 50%;
   left: 5%;
@@ -252,7 +252,7 @@ cursor: pointer;
 }
 
 .scrap-forge-text {
-  text-align: right;
+  text-align: center;
   position: absolute;
   left: 39.5%;
   right: 5%;
@@ -273,7 +273,7 @@ cursor: pointer;
 }
 
 .the-me-in-the-mirror-text {
-  text-align: left;
+  text-align: center;
   position: absolute;
   right: 50%;
   left: 5%;
@@ -322,7 +322,7 @@ cursor: pointer;
 }
 
 .self-absorbed-text {
-  text-align: right;
+  text-align: center;
   position: absolute;
   left: 41%;
   right: 5%;
@@ -357,7 +357,7 @@ cursor: pointer;
   border-radius: 1%;
   border-color: black;
   cursor: pointer;
-  left: 33%;
+  left: 24%;
 
 }
 
