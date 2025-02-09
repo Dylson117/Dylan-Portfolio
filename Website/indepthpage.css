@@ -80,8 +80,9 @@ b {
   .scrap-forge-text {
     text-align: right;
     position: absolute;
-    left: 43%;
-    right: 3%;
+    left: 48%;
+    right: 2%;
+    top: 23%;
    
   }
 
@@ -98,32 +99,22 @@ b {
   }
 
 
-  .scrap-forge-2 img {
-    height: 400px;
-    width: 600px;
-    left: 60%;
-    background-position: right;
-    background-repeat: no-repeat;
-    background-size: absolute;
-    background-color: burlywood;
-    position: relative;
-    padding: 10px;
-    border-radius: 1%; 
-  }
+ 
   
   .scrap-forge-2-text {
-    text-align: right;
-  position: absolute;
-  left: 39.5%;
-  right: 5%;
+    text-align: left;
+    position: absolute;
+    right: 50%;
+    left: 3%;
+    top: 105%;
   }
 
-
+  
 
   .carousel {
     height: 500px;
     width: 700px;
-    left: 1%;
+    left: 2%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: absolute;
@@ -215,4 +206,47 @@ b {
     font-family: Verdana, sans-serif;
     text-align: center;
   }
+
+  .design-doc-tile-button {
+    background-color: burlywood;
+    height: 444px;
+    width: 510px;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    box-sizing: border-box;
+    border-radius: 1%;
+    text-align: center;
+    cursor: pointer;
+    right: 5%;
+    left: 65%;
+    
+  }
   
+
+  .itch-link-centre {
+    background-color: burlywood;
+    height: 60px;
+    width: 260px;
+    
+    right: 30%;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: absolute;
+    position: relative;
+    border-radius: 1%;
+    border-color: black;
+    cursor: pointer;
+  }
+
+  .contact-button {
+    background-color: burlywood;
+    height: 60px;
+    width: 260px;
+    position: relative;
+    border-radius: 1%;
+    border-color: black;
+    cursor: pointer;
+    left: 33%;
+  
+  }
