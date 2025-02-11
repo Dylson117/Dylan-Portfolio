@@ -112,7 +112,7 @@ b {
   
 
   .carousel {
-    height: 500px;
+    height: 550px;
     width: 700px;
     left: 2%;
     background-position: center;
@@ -124,10 +124,11 @@ b {
   }
   
   .carousel_image {
-    height: 100%;
+    height: 90%;
     width: 100%;
     object-fit: cover;
-    border-radius: 5%;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
   }
   
   .carousel_track-contrainer{
@@ -205,6 +206,7 @@ b {
   .slide-text {
     font-family: Verdana, sans-serif;
     text-align: center;
+    padding: 20px;
   }
 
   .design-doc-tile-button {
