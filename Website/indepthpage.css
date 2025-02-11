@@ -222,7 +222,13 @@ b {
     cursor: pointer;
     right: 5%;
     left: 60%;
+    font-size: 20px;
     
+  }
+
+  .design-doc-tile-button:hover {
+    background-color: rgb(191, 163, 123);
+    border: 10px;
   }
   
 
@@ -239,6 +245,11 @@ b {
     cursor: pointer;
   }
 
+  .itch-link-centre:hover {
+    background-color: rgb(191, 163, 123);
+    border: 10px;
+  }
+
   .contact-button {
     background-color: burlywood;
     height: 60px;
@@ -247,6 +258,28 @@ b {
     border-radius: 1%;
     border-color: black;
     cursor: pointer;
-    left: 24%;
+    left: 33%;
   
+  }
+
+  .contact-button:hover {
+    background-color: rgb(191, 163, 123);
+    border: 10px;
+  }
+
+  .home-button {
+    background-color: burlywood;
+    height: 60px;
+    width: 260px;
+    border-radius: 1%;
+    border-color: black;
+    cursor: pointer;
+    position: absolute;
+    left: 6%;
+    top: 5%;
+  }
+
+  .home-button:hover {
+    background-color: rgb(191, 163, 123);
+    border: 10px;
   }

@@ -299,6 +299,16 @@ cursor: pointer;
   cursor: pointer;
 }
 
+.itch-link-left:hover{
+  background-color: rgb(191, 163, 123);
+  border: 10px;
+}
+
+.itch-link-right:hover {
+  background-color: rgb(191, 163, 123);
+  border: 10px;
+}
+
 .itch-link-left {
   background-color: burlywood;
   height: 60px;
@@ -341,7 +351,7 @@ cursor: pointer;
 
 .research-tile-button {
   background-color: burlywood;
-  height: 444px;
+  height: 460px;
   width: 478px;
   padding: 15px;
   left: 3%;
@@ -352,7 +362,12 @@ cursor: pointer;
   border-radius: 1%;
   text-align: center;
   cursor: pointer;
-  
+  font-size: 17px;
+}
+
+.research-tile-button:hover {
+  background-color: rgb(191, 163, 123);
+  border: 10px;
 }
 
 .contact-button {
@@ -363,8 +378,13 @@ cursor: pointer;
   border-radius: 1%;
   border-color: black;
   cursor: pointer;
-  left: 24%;
+  left: 33%;
 
+}
+
+.contact-button:hover {
+  background-color: rgb(191, 163, 123);
+  border: 10px;
 }
 
 .section-intro {
