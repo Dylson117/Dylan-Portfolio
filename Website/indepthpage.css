@@ -1,5 +1,6 @@
 body, html {
     height: 125%; 
+    margin: 0px;
     
 }
 
@@ -49,14 +50,21 @@ h3 {
 p- {
   color: rgb(69, 59, 48);
 }
+
+p {
+  color: rgb(69, 59, 48);
+  font-size: 18px;
+}
 p2 {
   font-size: 17px;
   text-shadow: 0px 0px #000000;
+  color: beige;
   
 }
+
 b {
-  color: beige;
-  background-color: burlywood;
+  color: burlywood;
+  
   height: 60px;
   width: 260px;
 }
@@ -268,7 +276,7 @@ b {
   }
 
   .home-button {
-    background-color: burlywood;
+    background-color: beige;
     height: 60px;
     width: 260px;
     border-radius: 1%;
@@ -283,3 +291,73 @@ b {
     background-color: rgb(191, 163, 123);
     border: 10px;
   }
+
+
+  .container {
+    position: fixed; 
+    z-index: 9999;
+    top: 0;
+    width: 100%;
+    background-color: burlywood;
+    overflow: visible;
+    height: 70px;
+     
+  }
+  
+  
+  .navbar {
+    width: 95%;
+    height: 50%;
+    align-items: start;
+    
+   
+  }
+  
+  .nav-menu {
+    justify-content: space-evenly;
+    align-items: right;
+    gap: 10px;
+    float: right;
+  }
+  
+  .navbar-name {
+    float: left;
+    font-size: 2rem;
+  }
+  
+  
+  .navbar ul {
+    list-style-type: none;
+    background-color: burlywood;
+    margin: 0px; 
+    max-height: 90%; 
+  
+  }
+  
+  .navbar a {
+    color: beige;
+    text-decoration: none;
+    padding: 25px;
+    display: block;
+    text-align: center;
+  }
+  
+  .navbar a- {
+    color: beige;
+    text-decoration: none;
+    padding: 18px;
+    display: block;
+    text-align: center;
+  }
+  
+  .navbar a:hover{
+    background-color: rgb(191, 163, 123);
+    border: 10px;
+  }
+  
+  .navbar li{
+    float: right;
+    list-style: none;
+  }
+
+  
