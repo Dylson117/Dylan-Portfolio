@@ -462,11 +462,10 @@ cursor: pointer;
   background-color: burlywood;
   height: 60px;
   width: 260px;
-  position: relative;
   border-radius: 1%;
   border-color: black;
   cursor: pointer;
-  left: 33%;
+  display: inline-block;
   
 
 }
@@ -474,6 +473,10 @@ cursor: pointer;
 .contact-button:hover {
   background-color: rgb(191, 163, 123);
   border: 10px;
+}
+
+.contact-container {
+  text-align: center;
 }
 
 .section-intro {
