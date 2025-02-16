@@ -71,6 +71,7 @@ p2 {
 
 p {
   color: beige;
+  font-size: 15px;
 }
 b {
   color: beige;
@@ -467,6 +468,7 @@ cursor: pointer;
   cursor: pointer;
   display: inline-block;
   
+  
 
 }
 
@@ -477,6 +479,8 @@ cursor: pointer;
 
 .contact-container {
   text-align: center;
+  justify-content: space-evenly;
+ 
 }
 
 .section-intro {
