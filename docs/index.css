@@ -72,6 +72,7 @@ p2 {
 p {
   color: beige;
   font-size: 15px;
+  
 }
 b {
   color: beige;
@@ -355,7 +356,7 @@ cursor: pointer;
 }
 
 .the-me-in-the-mirror-image img {
-  height: 400px;
+  height: 350px;
   width: 600px;
   left: 60%;
   background-position: right;
@@ -414,7 +415,7 @@ cursor: pointer;
 
 .self-absorbed-image img {
   background-color: burlywood;
-  height: 400px;
+  height: 350px;
   width: 580px;
   padding: 10px;
   left: 1%;
@@ -436,17 +437,17 @@ cursor: pointer;
 
 .misc-work-tiles-container {
   width: 100%;
+  text-align: center;
+  display: inline-block;
 }
 
 .research-tile-button {
   background-color: burlywood;
   height: 460px;
   width: 478px;
-  padding: 15px;
-  left: 3%;
   background-position: center;
   background-repeat: no-repeat;
-  position: absolute;
+  
   box-sizing: border-box;
   border-radius: 1%;
   text-align: center;
