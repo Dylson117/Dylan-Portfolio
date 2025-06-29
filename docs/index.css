@@ -439,13 +439,15 @@ cursor: pointer;
   width: 100%;
   text-align: center;
   display: inline-block;
+  
+  
 }
 
 .research-tile-button {
   background-color: burlywood;
   height: 460px;
   width: 478px;
-  background-position: center;
+  background-position: left;
   background-repeat: no-repeat;
   
   box-sizing: border-box;
@@ -453,11 +455,54 @@ cursor: pointer;
   text-align: center;
   cursor: pointer;
   font-size: 17px;
+  
 }
 
 .research-tile-button:hover {
   background-color: rgb(191, 163, 123);
   border: 10px;
+}
+
+.insta-tile-button {
+  background-color: burlywood;
+  height: 460px;
+  width: 478px;
+  background-position: right;
+  background-repeat: no-repeat;
+  
+  
+  
+  
+  box-sizing: border-box;
+  border-radius: 1%;
+  text-align: center;
+  cursor: pointer;
+  font-size: 17px;
+  
+ 
+}
+
+
+.insta-profile-pic {
+  width: 68%;
+  height: 68%;
+  object-fit: cover;
+}
+
+
+.insta-tile-button:hover {
+  background-color: rgb(191, 163, 123);
+  border: 10px;
+}
+
+.block1{
+  padding: 20px;
+  position: relative;
+}
+
+.block2 {
+  padding: 20px;
+  position: relative;
 }
 
 .contact-button {
