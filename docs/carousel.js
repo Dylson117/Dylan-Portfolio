@@ -16,8 +16,22 @@ slides.forEach(setSlidePosition);
 
 const moveToSlide = (track, currentSlide, targetSlide) => {
     track.style.transform = 'translateX(-' + targetSlide.style.left + ')';
-    currentSlide.classList.remove("current-slide");
+
     targetSlide.classList.add("current-slide");
+    targetSlide.style.display = "block";
+    track.addEventListener('transitionend', function handler() {
+        slides.forEach(slide => {
+            if (!slide.classList.contains("current-slide")) {
+                slide.style.display = "none";
+            }
+            else
+                {
+                    slide.style.display = "block";
+                }
+            });
+            currentSlide.classList.remove("current-slide");
+            track.removeEventListener('transitionend', handler);
+    });
 }
 
 const updateDots = (currentDot, targetDot) => {

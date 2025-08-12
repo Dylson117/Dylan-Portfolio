@@ -240,8 +240,9 @@ b {
 }
 .carousel {
   height: 600px;
-  width: 700px;
-  left: 55%;
+  width: 35%;
+  max-width: 700pc;
+  left: 25%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: absolute;
@@ -251,7 +252,7 @@ b {
 }
 
 .carousel_image {
-  height: 90%;
+  height: 80%;
   width: 100%;
   object-fit: cover;
 
