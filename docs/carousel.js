@@ -30,6 +30,7 @@ const moveToSlide = (track, currentSlide, targetSlide) => {
                 }
             });
             currentSlide.classList.remove("current-slide");
+            currentSlide.style.display = "none";
             track.removeEventListener('transitionend', handler);
     });
 }
