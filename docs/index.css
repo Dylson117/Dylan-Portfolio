@@ -393,6 +393,21 @@ iframe {
 
 }
 
+.dont-let-go-image {
+  background-color: burlywood;
+  height: auto;
+  width: 35%;
+  padding: 10px;
+  left: 60%;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: absolute;
+  position: relative;
+  box-sizing: border-box;
+  border-radius: 1%;
+
+}
+
 .scrap-forge-text {
   text-align: center;
   position: absolute;
