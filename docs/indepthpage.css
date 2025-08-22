@@ -27,7 +27,6 @@ h1- {
 h2 {
   color: burlywood;
   text-shadow: 1px 1px #000000;
-
   font-size: 45px;
   text-align: center;
 }
@@ -45,6 +44,14 @@ h3 {
   color: burlywood;
   text-shadow: 1px 1px #000000;
   font-size: 25px;
+}
+
+h3- {
+  text-align: center;
+  color: beige;
+  text-shadow: 1px 1px #000000;
+  font-size: 30px;
+  
 }
 
 p- {
@@ -260,15 +267,19 @@ b {
 
   .contact-button {
     background-color: burlywood;
-    height: 60px;
-    width: 260px;
-    position: relative;
-    border-radius: 1%;
-    border-color: black;
-    cursor: pointer;
-    left: 33%;
+  height: 60px;
+  width: 260px;
+  border-radius: 1%;
+  border-color: black;
+  cursor: pointer;
+  display: inline-block;
   
   }
+  .contact-container {
+  text-align: center;
+  justify-content: space-evenly;
+ 
+}
 
   .contact-button:hover {
     background-color: rgb(191, 163, 123);
@@ -359,5 +370,47 @@ b {
     float: right;
     list-style: none;
   }
+
+  .challenge-text{
+  text-align: center;
+  padding-right: 5%;
+  padding-left: 5%;
+  padding-bottom: 3%;
+  left: 39.5%;
+  right: 5%;
+}
+
+.comparison-videos{
+  display: inline-block;
+  background-color: burlywood;
+  height: 85%;
+  width: 85%;
+  padding: 5px;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: absolute;
+  position: relative;
+  box-sizing: border-box;
+  border-radius: 1%;
+}
+
+.before {
+  text-align: left;
+  display: inline-block;
+  margin-left: -22%;
+  margin-right: 22%;
+  padding: 1px;
+}
+
+.after {
+  text-align: right;
+  display: inline-block;
+  margin-right: -22%;
+  margin-left: 22%;
+  padding: 1px;
+
+}
+
+  
 
   
