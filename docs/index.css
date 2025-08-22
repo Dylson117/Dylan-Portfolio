@@ -106,8 +106,8 @@ p {
   
 }
 b {
-  color: beige;
-  background-color: burlywood;
+  color: burlywood;
+  
   height: 60px;
   width: 260px;
   text-shadow: 0px 0px #000000;
@@ -371,6 +371,14 @@ cursor: pointer;
 }
 
 iframe {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    border: none;
+    display: block;
+}
+
+video {
     width: 100%;
     height: auto;
     aspect-ratio: 16 / 9;
