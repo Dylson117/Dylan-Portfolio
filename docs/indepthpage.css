@@ -411,6 +411,23 @@ b {
 
 }
 
+.before-TMITM {
+  text-align: left;
+  display: inline-block;
+  margin-left: -17%;
+  margin-right: 10%;
+  padding: 1px;
+}
+
+.after-TMITM {
+  text-align: right;
+  display: inline-block;
+  margin-right: -17%;
+  margin-left: 17%;
+  padding: 1px;
+
+}
+
   
 
   

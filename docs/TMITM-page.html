@@ -21,7 +21,6 @@
       <li class="nav-link"><a href="#misc-work">Other Works</a></li>
       <li class="nav-link"><a href="#scrap-forge">My Experience</a></li>
       <li class="nav-link"><a href="#about-me">About Me</a></li>
-      <li class="nav-link"><a href="DylanRoseCV.pdf" download="DylanRoseCV">My Resume/CV</a></li>
       <li class="nav-link"><a href="index.html">Home</a></li>
   
     </ul>
@@ -38,7 +37,7 @@
           <h2->The Me In The Mirror</h2->
           <br>
           <br>
-          <p2><i>Lead overall designer and developer</i></p2>
+          <p2><i>Lead Overall Designer and Developer</i></p2>
       </div>
       <div class="section-divider">
         <br>
@@ -262,6 +261,66 @@ Are you sure that's you in the mirror?  The Me in the Mirror is <strong>an inten
 <br>
 <br>
 <br>
+
+
+<div class="section-divider">
+        <br>
+        <br>
+      </div>
+
+  <div class="challenge-text">
+          <h2>Biggest Challenge</h2>
+
+            <p-> 
+              
+            <br>
+            <br>
+            <div class="comparison-videos">
+              <div class="before-TMITM">
+                <h3->Overworld Flipping:</h3->
+              </div>
+              <div class="after-TMITM">
+                <h3->Underworld Flipping:</h3->
+
+              </div>
+              <br>
+              <br>
+      
+        <video autoplay controls muted loop src="overworld flip TMITM - Made with Clipchamp (1).mp4" style width="600px" ></video> 
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+        <video autoplay controls muted loop src="TMITM Flip level.mp4" style width="600px" ></video> 
+        </div>
+            <br>
+            <br>
+            <br>
+            
+           The biggest challenge I faced was figuring out the logic behind flipping both the normal and underworld of my level (the house). 
+           Due to this project being a designer only group task I had a lot of difficulty figuring out from a code POV how to get this level 
+           flipping system to work.  
+           <br>
+            <br>
+            Initially I tried rotating a parent object of the level within one of Unreal’s blueprints however I found that this did not 
+            create the desired effect and would cause the level to rotate but shift far away in the scene, leaving a hole into the void 
+            and preventing players from going further. 
+            <br>
+            <br>
+            I then attempted to use Unreal’s level instances feature however due to my limited knowledge of Unreal I found that this 
+            system was even more difficult to control and caused a lot of logic based confusion with the wrong level spawning at the wrong time
+            <br>
+            <br>
+            In the end I figured out how I could create the level flipping system. I instead created a blockout of the level/area I wanted to 
+            flip, duplicated this blockout and placed it under a parent object. When the player presses a button in the world this would check
+             what flipped level parent is spawned in and despawn it, simultaneously spawning in the other level. The video above showcases this 
+             system. 
+             <br>
+            <br>
+            Whilst this is an issue programmers would likely deal with I believe it improved my understanding of Unreal and its blueprint 
+            system through the ambitious nature of the level design whilst also making for a more engaging puzzle in the final release.
+          </p->
+          
+
+        </div>
 
 
     <div class="contact-me">

@@ -222,16 +222,16 @@ b {
 
 .about-me-image img
 {
-  height: 35%;
-  width: 35%;
-  max-width: 400px;
-  left: 3%;
+  height: 70%;
+  width: 70%;
+  max-width: 500px;
+  left: 1%;
   background-position: left;
   background-repeat: no-repeat;
   background-size: absolute;
   position: relative;
   box-sizing: border-box;
-  border-radius: 30%;
+  border-radius: 5%;
 }
 
 .carousel {
@@ -401,6 +401,8 @@ video {
 
 }
 
+
+
 .dont-let-go-image {
   background-color: burlywood;
   height: auto;
@@ -480,6 +482,25 @@ video {
   border-radius: 1%;
   border-color: black;
   cursor: pointer;
+}
+
+.about-me-link {
+  background-color: burlywood;
+  height: 60px;
+  width: 160px;
+  left: 3%;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: absolute;
+  position: relative;
+  border-radius: 1%;
+  border-color: black;
+  cursor: pointer;
+  display: inline-block;
+}
+.about-me-link:hover{
+  background-color: rgb(191, 163, 123);
+  border: 10px;
 }
 
 .self-absorbed-image img {
