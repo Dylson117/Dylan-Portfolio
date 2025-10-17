@@ -454,6 +454,41 @@ video {
 
 }
 
+
+.before-scrap {
+  text-align: left;
+  display: inline-block;
+  margin-left: -10%;
+  margin-right: 14%;
+  padding: 1px;
+}
+
+.after-scrap {
+  text-align: right;
+  display: inline-block;
+  margin-right: -10%;
+  margin-left: 12%;
+  padding: 1px;
+
+}
+
+
+.before-scrap2 {
+  text-align: left;
+  display: inline-block;
+  margin-left: -18%;
+  margin-right: 18%;
+  padding: 1px;
+}
+
+.after-scrap2 {
+  text-align: right;
+  display: inline-block;
+  margin-right: -10%;
+  margin-left: 10%;
+  padding: 1px;
+
+}
   
 
   
