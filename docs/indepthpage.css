@@ -126,6 +126,14 @@ b {
     top: 105%;
   }
 
+  .scrap-forge-3-text {
+    text-align: center;
+    position: absolute;
+    right: 5%;
+    left: 3%;
+    top: 105%;
+  }
+
   
 
   .carousel {
