@@ -125,7 +125,7 @@
                     </div>
               </li>
                <li class="carousel_slide">
-                <img class="carousel_image" src="Image 4 dgu.jpg">
+                <img class="carousel_image" src="Main menu.png">
                     <div class="slide-text">
                       <p>Image of the Don't Give Up main menu</p>
                     </div>
@@ -307,27 +307,23 @@ These changes slowed the game down a lot more, giving players a better chance of
       </div>
     
         <div class="challenge-text">
-          <h2>The Death Wave:</h2>
+          <h2>Level Design Balancing</h2>
 
           <p->
             <br>
             <br>
 
-            <div class="comparison-videos">
+            <div class="design-videos">
               <div class="video-title">
-                <h3->Prototype Death Wave Videos:</h3->
 
               </div>
-              <br>
-              <br>
       
-        <video autoplay controls muted loop src="Death Wave 2 - Made With Clipchamp.mp4" style width="600px"></video>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <video autoplay controls muted loop src="No Corrupted Floor.mp4" style width="700px" ></video>
+        
 
-        <video autoplay controls muted loop src="Step Printing - Made With Clipchamp.mp4" style width="600px" ></video>
-        <br>
-        <br>
-        <p->The video on the right is an example of the "step printing" effect found in Wong Kar Wai's "Chungking Express"</p->
+        
+        
+       
         
 
         
@@ -335,25 +331,34 @@ These changes slowed the game down a lot more, giving players a better chance of
             <br>
             <br>
             <br>
-            The Death Wave was a scrapped idea we had. This system would work <strong>similar to storm systems 
-            in games like Fortnite.</strong> It would be triggered at a <strong>random time between 10 and 20 minutes</strong> forcing the player to drop everything 
-            they were doing to run away and reach a safe point. We also planned to create a <strong>"step printing" visual effect 
-            that would trigger with the death wave</strong> disorienting players and making Death Wave sequences 
-            more intimidating.
-            <br>
-            <br>
-            <br>
-            Originally this was <strong>the only form of threat the player would need to face</strong> however early in the pre-production 
-            stages we realised this system was not only <strong>out of our technical scope but would also be difficult to balance and build levels 
-            around</strong> in 5 months.
-             <br>
-            <br>
-            <br>
-            <strong>We decided to scrap the Death Wave system instead focusing on enemies and their variations.</strong> We felt this change was 
-            <strong>achievable from a scope POV and worked better for balancing gameplay.</strong> A small number of enemies can be used a lot easier than 
-            the death wave to quickly ramp up pacing and provide the player with a challenge. Furthermore, the <strong>enemy system 
-            (comprising of three types) was a lot more variable, allowing us to put the player in unique situations over the limiting
-            death wave system.</strong> 
+            Going into this project I set the goal of keeping the level design simple to avoid any scope issues since I had to balance working on this game and a full time job. However as development continued and playtests were conducted, it became clear that a lot of the balancing issues would need to be fixed through level design and some changes to the environment.
+<br>
+<br>
+Every friend attempts to move to one of 8 points on each side of the screen, meaning there are 32 points in total. As a result, friends would spread out across the level, making it much harder for players to catch them all since they were so far apart. This led to the game ending far faster than I intended and left players feeling overly helpless and as though there was no chance of winning or any point in playing at all.  
+<br>
+<br>
+In order to balance their movement I attempted to decrease the number of points the friends could move to. On paper this meant that the friends would all move in similar lines/groups, making it easier for players to manage and stop the friends from leaving. However this solution made the game feel too linear, friends wouldn’t move in a way that felt random so this prototype made the system feel too predictable and got boring quickly.
+
+<br>
+<br>
+  <div class="design-videos">
+              <div class="video-title">
+
+              </div>
+      
+        <video autoplay controls muted loop src="Corrupted Floor Introduced.mp4" style width="700px" ></video>
+        </div>
+ <br>
+ <br>
+ In my second iteration of this prototype, I kept the 32 points however I introduced environmental hazards. These hazards were programmed in such a way that the friends would avoid them, instead walking around them to create choke points throughout the level. This ensured players could reach the friends easier whilst also enabling them to predict where friends would be instead of attempting to guess their sporadic movement. This balancing change was felt immediately in the subsequent playtest with players reaching higher scores and lasting much longer than they were initially. The addition of learnable movement patterns enforced through restrictions in the environment and choke points ensured players felt like they were in control and could manage the friends easier.
+<br>
+<br>
+In addition these environmental hazards slow the player down, providing them with the extra challenge of needing to avoid them. This adds some extra conflict to the game system, ensuring it feels more engaging and overwhelming for the player, linking back to the game's themes and design pillars that emphasised stress and an overwhelming tone.
+
+
+<br>
+<br>
+
           </p->
         </div>
 
@@ -366,319 +371,179 @@ These changes slowed the game down a lot more, giving players a better chance of
       </div>
 
 
-                <div class="challenge-text">
-          <h2>Tutorial Level Design Iterations</h2>
+                 <div class="challenge-text">
+          <h2>Combo System</h2>
 
-            <p-> 
-            <br>
-            <br>
-
-            <div class="comparison-videos">
-              <div class="before">
-                <h3->Before:</h3->
-              </div>
-              <div class="after">
-                <h3->After:</h3->
+          <p->
+The combo system was a feature I added late in the development cycle as a response to a lot of the playtesting feedback I received. Playtesters and myself alike felt there was something missing from the experience, there wasn’t much for the player to interact with other than the friends and the shout ammo flowers. After some research into other incremental and arcade style games I found that a combo system was quite common and decided to begin testing it.
+<br>
+<br>
+            <div class="design-videos">
+              <div class="video-title">
 
               </div>
-              <br>
-              <br>
       
-        <img src="church prototype.png" style width="600px">
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <video autoplay controls muted loop src="Combo System Final.mp4" style width="700px" ></video>
+        
 
-        <img src="final church.png" style width="600px">
+        
+        
+       
+        
+
+        
         </div>
             <br>
             <br>
-            <br>
-            
-            Starting with the church area, this is where the player starts the game. I did not feel that many changes were necessary, 
-            however to improve the tutorial in the beginning I <strong>increased the size of the fallen pillars so players could not just walk 
-            over them and would instead need to jump over them and learn the jump mechanic before they can move on.</strong> 
+           At first the combo system increased player engagement slightly, players felt that there was something else to interact with but it quickly became clear that the combo system didn’t reward them with anything and thus there was not a reason for a lot of players to interact with it. It was an isolated feature that didn’t interact with any other game systems.
+<br>
+<br>
+To solve this issue I linked the players movement system to the combo system. Each time the player reaches a combo of 10 or a multiple of 10 they would receive a slight speed increase.
+<br>
+<br>
+This solution worked well in ensuring players felt adequately rewarded and interacted with the system fully which in turn deepened the interactions the player could have with the overall game system. 
+<br>
+<br>
+This feature also balanced the experience and improved the games pacing. Having the player be slow in the beginning because there aren’t enough friends to hit a combo made the beginning state/screen feel a lot more intense and meant that players would move onto state 2 and 3 faster. Furthermore, the combo system increasing the players speed meant that when they are in state 2 and 3 and the friends are clumped into groups they can increase their speed faster to accommodate for the increase in the play/level space, allowing the player to almost balance the scales themself leading to a much more rewarding experience
+
+<br>
+<br>
+
           </p->
-          
-
         </div>
 
+        <div class="section-divider">
         <br>
-
+        <br>
+      </div>
+    
         <div class="challenge-text">
+          <h2>Shouting Ammo</h2>
 
-            <div class="comparison-videos">
-              <div class="before">
-                <h3->Before:</h3->
-              </div>
-              <div class="after">
-                <h3->After:</h3->
-
-              </div>
-              <br>
-              <br>
-      
-        <img src="zen view prototype.png" style width="600px">
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
-        <img src="final zen view.png" style width="600px">
-        </div>
-            <br>
-            <br>
-            <br>
-            
-            In this room I decided to <strong>increase the size of the platforms on the left, ensuring players would actually need to jump 
-            instead of just walking up ensuring they understand the mechanic.</strong> I also introduced a breakable pot and removed some bars 
-            from the window. This window acts as a <strong>“zen view”</strong> allowing players to see the cube in the next room and thus their objective. 
-            I found that <strong>introducing the breakable pot and removing the bars increased the chance the player would look through the window</strong> 
-            driven by the interactability of the pot and the more clear, less obstructed view as well as the blue point light guiding the 
-            players eyes to the window due to its contrast with the warmer torch lights. 
-
-          </p->
+          <p->
           
 
-        </div>
-
-
-
-        <div class="challenge-text">
-
-            <div class="comparison-videos">
-              <div class="before">
-                <h3->Before:</h3->
-              </div>
-              <div class="after">
-                <h3->After:</h3->
+            <div class="design-videos">
+              <div class="video-title">
 
               </div>
-              <br>
-              <br>
       
-        <img src="rope swing proto.png" style width="600px">
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <video autoplay controls muted loop src="No Shout Ammo.mp4" style width="700px" ></video>
+        
 
-        <img src="final rope swing.png" style width="600px">
-        </div>
-            <br>
-            <br>
-            <br>
-            
-            In this room I decided to <strong>increase the gap.</strong> We teach the player how to swing on ropes here however many players didn't swing 
-            and instead just jumped off the rope and onto the platform above. <strong>By increasing the distance it forced players to swing, interacting 
-            with the mechanic and being taught how it works ready for later sections.</strong> I also introduced lights to guide the player upwards and 
-            used the shadows/darkness to signal to players they are not meant to go down into the hole. 
+        
+        
+       
+        
 
-
-          </p->
-          
-
-        </div>
-
-
-        <div class="challenge-text">
-
-            <div class="comparison-videos">
-              <div class="before">
-                <h3->Before:</h3->
-              </div>
-              <div class="after">
-                <h3->After:</h3->
-
-              </div>
-              <br>
-              <br>
-      
-        <img src="before rafters proto.png" style width="600px">
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
-        <img src="final before rafters.png" style width="600px">
-        </div>
-            <br>
-            <br>
-            <br>
-            
-            The largest change I made to this room is the <strong>removal of the rest point (circled in the image on the left).</strong> Rest points act as a 
-            major reward for the player, allowing them to save their game and set a checkpoint. I felt that giving it to them this early in the 
-            game would not reinforce that. Furthermore, the player needs to have the cube to interact with every other rest point in the game. 
-            Having this rest point not require the cube would break the mechanic's rules and cause player confusion.
-
-
-
-          </p->
-          
-
-        </div>
-
-
-        <div class="challenge-text">
-
-            <div class="comparison-videos">
-              <div class="before">
-                <h3->Before:</h3->
-              </div>
-              <div class="after">
-                <h3->After:</h3->
-
-              </div>
-              <br>
-              <br>
-      
-        <video autoplay controls muted loop src="church prototype.mp4" style width="600px" ></video>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <video autoplay controls muted loop src="final church.mp4" style width="600px" ></video>      
         
         </div>
             <br>
             <br>
-            <br>
-            
-            In the final release we <strong>introduced a scripted camera movement</strong> to the church rafters sequence. This camera movement allowed us 
-            to <strong>emphasise the players height, increasing tension and ensuring this section stands out from other areas of the tutorial.</strong> 
-            Furthermore the camera change clearly showcases the area the player has come from helping create an environment that feels 
-            connected and believable
+           In early iterations of Don’t Give Up players could shout with no restriction. As a result they were able to keep all of the friends within the circle easily, removing the tension and stress I was attempting to deliver through this experience. Players found the game far too easy in early playtesting builds. As you can see from the video above the player does not need to leave the inner blue circle leading to an extremely easy and unengaging gameplay loop 
+        <br>
+        <br>
+In order to balance this I first attempted to increase the size of the circle and prevent players from walking within it. This ensured that they could not get close enough to the circle to easily send the friends back and rack up points. However, this solution felt very arbitrary and restrictive, it didn’t add anything to the game system or provide players with something else to interact with. It made the game feel a lot more stale
+        
+<br>
+<br>
+  <div class="design-videos">
+              <div class="video-title">
+
+              </div>
+      
+        <video autoplay controls muted loop src="Shout Ammo.mp4" style width="700px" ></video>
+        </div>
+ <br>
+ <br>
+ To solve these problems I decided to limit the players ability to shout at and reset the friends. I looked at Missile Command which served as the primary inspiration for Don’t Give Up and I found that the missile limit feature makes the later screens/levels in Missile Command much more intense. Adding a resource to manage gives the player something else to think about and enrichens the entire system. 
+        <br>
+        <br>
+This solution worked really well. In the following playtest I found that players were not just hovering around the circle and would instead space themselves out across the level. As a result more friends were able to move outside the circle and the game felt more intense and overwhelming, linking to its central theme and removing the degenerative/exploitative strategy players were previously employing. 
 
 
+<br>
+<br>
 
           </p->
-          
-
         </div>
 
 
+         <div class="section-divider">
+        <br>
+        <br>
+      </div>
+    
         <div class="challenge-text">
+          <h2>Friend Collision and Balancing</h2>
 
-            <div class="comparison-videos">
+          Early on in the prototyping phase of the project I decided to remove the collisions on all of the friends to ensure that there were no path finding issues with their AI. However, later in development I felt that the player lacked interaction with the friend system. All the player could do was shout and stun them, limiting the choices they could make and the space of possibility
+<br>
+<br>
+
+Attempting to remedy this I created 3 iterations of my game: one with collisions on all friends, one without collisions on any friends and one where the player is slowed down each time they walk through a friend. 
+<br>
+<br>
+
+I felt that it was important to have the player interact with the friends more to make the game system feel more engaging and as though they were obstacles to the player so I tested each build with some of the playtesters that volunteered. 
+<br>
+<br>
+
+          <div class="comparison-videos">
               <div class="before">
-                <h3->Before:</h3->
+                <h3->No Collision:</h3->
               </div>
               <div class="after">
-                <h3->After:</h3->
+                <h3->Collision:</h3->
 
               </div>
               <br>
               <br>
       
-        <video autoplay controls muted loop src="cube room prototype.mp4" style width="600px" ></video>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <video autoplay controls muted loop src="final cube room.mp4" style width="600px" ></video>      
+        <video autoplay controls muted loop src="No Collision.mp4" style width="600px" ></video>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <video autoplay controls muted loop src="Full Collision.mp4" style width="600px" ></video>      
         
         </div>
-            <br>
-            <br>
-            <br>
-            
-            I made a lot of changes to the cube room in the final release. To start, I <strong>introduced a cage that the player needs to get the cube 
-            out of.</strong> From an emotional POV I believe this <strong>frames the cube as something the player needs to help,</strong> serving the companionship 
-            themes of [Don’t] Let Go and ensuring the player feels connected to the cube from the beginning. I also <strong>introduced a lever that the 
-            player would need to pull to save the cube.</strong> This allowed me to create the short puzzle sequence in which the <strong>player needs to use 
-            everything they have learned in the tutorial</strong> (cube throwing, destructible walls, climbing, rope swinging and lever interaction) to 
-            free the cube, acting as a <strong>final test of the player's understanding of the mechanics.</strong>
-
-            <br>
-            <br>
-            I also <strong>created the cube connection cutscene</strong> which helps create a smoother transition between the player not having the cube and 
-            suddenly being connected to it. The cutscene also <strong>helps establish what the player's objective is.</strong> 
-
-            <br>
-            <br>
-
-              I <strong>removed the ramp</strong> from the far side of the room to <strong>teach and show players how climbing impacts their stamina</strong> as well as 
-              teaching them how to reel the cube in since they must let go of the cube in order to climb. 
-
-              <br>
-            <br>
-            Finally, I <strong>moved the purple door</strong> that only the cube can unlock to just before the player accesses the outside area. 
-            <strong>This helps emphasise the outdoor reveal, ensuring the vista feels more rewarding.</strong> 
-
-
-
-
-          </p->
-          
-
-        </div>
-
-        <div class="challenge-text">
-
-            <div class="comparison-videos">
-              <div class="before">
-                <h3->Before:</h3->
-              </div>
-              <div class="after">
-                <h3->After:</h3->
-
-              </div>
-              <br>
-              <br>
-      
-        <video autoplay controls muted loop src="outside prototype.mp4" style width="600px" ></video>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <video autoplay controls muted loop src="outside final.mp4" style width="600px" ></video>      
         
-        </div>
+
+        
+        
+       
+        
+
+        
+        
+        <p->
             <br>
             <br>
             <br>
-            
-            I use this initial outside area purely to <strong>reward the player with an engaging vista that sets the scene.</strong> In the final 
-            release I bring the wall down slightly to ensure players notice the tower, <strong>once they notice the first tower their 
-            camera moves left along the next tower, the bridge and finally to the bridge that is closest to them, moving the player's eyes in a square
-          like motion.</strong>
+           I found that players did not like the full collision build at all. Many reported that it felt clunky and unnecessarily restrictive leading to a poor player experience. The inverse was also true, players found that the build without any collisions was hollow and quite boring. From a design point of view I also felt that the no collisions build was too easy, players could just run through all of the friends and shout at the ones they wanted to reset, they were not an obstacle or point of conflict for the player. 
 
-            <br>
-            <br>
-            In the final release I <strong>removed the rest point from this section,</strong> saving it as the player's reward for climbing the tower and 
-            <strong>ensuring it does not interrupt the vista.</strong> 
+          <br>
+          <br>
+          <br>
 
-
-            <br>
-            <br>
-
-              The largest change I made to the outside area is the <strong>introduction of an enemy tutorial.</strong> In previous versions 
-              I introduced enemy combat much later into the game however after playtesting I felt it was necessary to introduce it 
-              sooner with a unique enemy that dies in one hit (all others die in two). Having the enemy grab the cube off the pressure
-               plate <strong>simultaneously teaches the player how pressure plates work but also teaches them that enemies will grab the cube if 
-               it is left unattended.</strong> This allows me to then <strong>teach the player how to make enemies drop the cube and finally how to defeat them, 
-               teaching the player exactly how the enemy works in a step by step process or loop.</strong>
-
-
-
-
-
-          </p->
-          
-
-        </div>
-
-
-        <div class="challenge-text">
-
-            <div class="comparison-videos">
-              <div class="before">
-                <h3->Before:</h3->
-              </div>
-              <div class="after">
-                <h3->After:</h3->
+            <div class="design-videos">
+              <div class="video-title">
 
               </div>
-              <br>
-              <br>
       
-        <img src="top of tower proto.png" style width="600px">
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
-        <img src="final top of tower.png" style width="600px">
+        <video autoplay controls muted loop src="Slowing Down With Friend.mp4" style width="700px" ></video>
         </div>
-            <br>
-            <br>
-            <br>
-            
-            The rest point I mentioned earlier was instead placed here at the top of the tower (circled in the right image). 
-            I felt that this would <strong>provide players with a better and clearer reward for climbing the entire tower.</strong> 
+ <br>
+ <br>
+ <br>
+In the end I decided to continue with the third build where whilst the player is colliding with a friend they will be slowed down. This struck a nice balance between the two builds. It  increased the interaction between players and the friends whilst also not slowing the pacing all the way down like the full collision build did. I found that players were more conscious of where the friends were and found the experience slightly more difficult as a result of the need to be more attentive and considerate of the friends' positions. From a narrative design POV I also felt that this addition benefited Don’t Give Up’s themes a lot more, having a friend slow you down and prevent you from saving another one added more depth to the narrative. 
 
+<br>
+<br>
 
           </p->
-          
-
         </div>
+
+
+        
 
 
 
